@@ -1,0 +1,8 @@
+header {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+}
+header img {
+  width: 50%;
+}
