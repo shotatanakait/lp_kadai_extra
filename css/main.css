@@ -1,0 +1,33 @@
+/* first view */
+.firstViewSection {
+  background-image: url(../img/top_effect_2x.png), url(../img/top_bg_2x.png);
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  height: 100vh;
+}
+.firstViewSectionInner {
+  height: 100%;
+  margin: 0 0 0 80px;
+  display: flex;
+}
+.firstViewSectionInner img {
+  height: 268px;
+  margin-top: 302px;
+}
+.firstViewText {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.46;
+  color: #fff;
+  width: 747px;
+  letter-spacing: 2.4px;
+}
+.modelViewerWrap {
+  width: 50%;
+}
+.modelViewerWrap model-viewer {
+  height: 90%;
+  width: 100%;
+}
