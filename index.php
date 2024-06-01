@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- header -->
-    <!-- <?php include('header.php'); ?> -->
+    <?php include('header.php'); ?>
 
     <!-- contents -->
     <main class="mainContents">
