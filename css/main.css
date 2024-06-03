@@ -32,6 +32,83 @@
   width: 100%;
 }
 
+/* know infinity energy */
+.knowInfinityEnergySection {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #000;
+}
+.knowInfinityEnergyTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.45;
+  letter-spacing: 3.2px;
+  color: #fff;
+  margin-bottom: 80px;
+}
+.infinityEnergyCardList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+.infinityEnergyCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 310px;
+}
+.cardItemInner {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  padding: 20px 16px;
+}
+.cardItemDate {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 1.4px;
+}
+.cardItemHead {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.firstCardItemHead {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.cardItemBody {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+}
+.knowInfinityEnergyButtonWrap {
+  text-align: center;
+  margin-top: 52px;
+}
+.knowInfinityEnergyButton {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: calc(40px - 2px);
+  letter-spacing: 2.2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  width: 300px;
+}
+
 /* present campaign */
 .presentCampaignSection {
   margin-top: 120px;
