@@ -31,3 +31,210 @@
   height: 90%;
   width: 100%;
 }
+
+/* present campaign */
+.presentCampaignSection {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.presentCampaignTitle {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.4;
+  letter-spacing: 3.2px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.presentCampaignDescription {
+  max-width: 1000px;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+}
+.presentCampaignSectionPresent {
+  max-width: 1000px;
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-top: 60px;
+  display: flex;
+  /* background: linear-gradient(0.42turn, #128FCD, #B3D6E0, #DC24B1); */
+  background-image: url(../img/campaign_bg_2x.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+.presentCampaignSectionPresent img {
+  width: 298px;
+  margin: 48px 0 48px 48px;
+}
+.presentCampaignBodyWrap {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+}
+.presentCampaignBodyWrap h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 2.4px;
+  color: #fff;
+}
+.presentCampaignBodyWrap p {
+  margin-top: 24px;
+  font-size: 2rem;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.presentCampaignBody {
+  padding-bottom: 24px;
+  border-bottom: 2px solid #fff;
+}
+.presentCampaignPeriod {
+  margin-top: 24px;
+}
+.presentCampaignPeriod p {
+  font-weight: 700;
+}
+.presentCampaignPeriod span {
+  font-size: 3.4rem;
+}
+
+/* form */
+.presentCampaignSectionForm {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  border-radius: 16px;
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.presentCampaignSectionForm form {
+  margin-right: 91px;
+  margin-left: 91px;
+}
+.presentCampaignSectionForm h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.endFormGroup {
+  margin-bottom: 48px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #d0d0d0;
+}
+.formGroup label {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+}
+.formGroup input {
+  display: inline-block;
+  width: 600px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  height: 50px;
+  font-size: 1.6rem;
+  padding-left: 8px;
+}
+.formGroup input[name="tel"],
+.formGroup input[name="postalCode"] {
+  width: 300px;
+}
+.formGroup span {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  letter-spacing: 1.2px;
+}
+.telWrap,
+.postalCodeWrap {
+  width: 600px;
+}
+.agreementWrap {
+  width: 100%;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.agreementWrap input[type="checkbox"] {
+  border: 1px solid #dcdcdc;
+  margin-right: 11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+}
+.agreementWrap input[type="checkbox"]:checked {
+  background-color: #128FCD;
+  position: relative;
+}
+.agreementWrap input[type="checkbox"]:checked::after {
+  content: "✔︎";
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  color: #fff;
+  background-color: #fff;
+}
+.agreementWrap label {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+  font-weight: 400;
+}
+.formSubmitNote {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.9;
+  letter-spacing: 1.8px;
+  margin-top: 40px;
+}
+.formSubmitButtonWrap {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+.formSubmitButton {
+  display: inline-block;
+  width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: linear-gradient(0.3turn, #128FCD, #B3D6E0, #DC24B1);
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  font-size: 2rem;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  box-shadow: 0 3.4px 0 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.formSubmitButton:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.presentCampaignNote {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  margin-top: 64px;
+}
