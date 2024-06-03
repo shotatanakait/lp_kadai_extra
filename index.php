@@ -39,6 +39,49 @@
             </div>
         </section>
 
+        <!-- know infinity energy -->
+        <?php
+            $knowInfinityEnergyTitle = 'インフィニティエナジーを知る';
+            $infinityEnergyCardList = [
+                [
+                    'cardItemImg' => './img/card_item1.png',
+                    'cardItemDate' => '2023/00/00',
+                    'cardItemHead' => 'エナジードリンクの歴史と未来',
+                    'cardItemBody' => 'エナジードリンクの進化と未来展望を探ります。',
+                ],
+                [
+                    'cardItemImg' => './img/card_item2.png',
+                    'cardItemDate' => '2023/00/00',
+                    'cardItemHead' => 'ストレス対策にエナジードリンクは役立つか？',
+                    'cardItemBody' => 'ストレス軽減にエナジードリンクの可能性を考察。',
+                ],
+                [
+                    'cardItemImg' => './img/card_item3.png',
+                    'cardItemDate' => '2023/00/00',
+                    'cardItemHead' => 'アスリートのためのエナジードリンクの最適な利用法',
+                    'cardItemBody' => '競技者向けのエナジードリンクの最適な使い方。',
+                ],
+            ]
+        ?>
+        <section class="knowInfinityEnergySection">
+            <h1 class="knowInfinityEnergyTitle"><?php echo $knowInfinityEnergyTitle; ?></h1>
+            <div class="infinityEnergyCardList">
+                <?php foreach ($infinityEnergyCardList as $index => $infinityEnergyCard) : ?>
+                    <div class="infinityEnergyCard">
+                        <img src="<?php echo $infinityEnergyCard['cardItemImg']; ?>" alt="card_item<?php echo $index + 1; ?>">
+                        <div class="cardItemInner">
+                            <p class="cardItemDate"><?php echo $infinityEnergyCard['cardItemDate']; ?></p>
+                            <p class="cardItemHead<?php if ($index === 0) : ?> firstCardItemHead<?php endif; ?>"><?php echo $infinityEnergyCard['cardItemHead']; ?></p>
+                            <p class="cardItemBody"><?php echo $infinityEnergyCard['cardItemBody']; ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+            <div class="knowInfinityEnergyButtonWrap">
+                <button type="button" class="knowInfinityEnergyButton">VIEW ALL</button>
+            </div>
+        </section>
+
         <!-- present campaign -->
         <?php
             $presentCampaignTitle = 'プレゼントキャンペーン開催中';
